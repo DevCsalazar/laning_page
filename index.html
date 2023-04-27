@@ -5,37 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing page</title>
-    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"/>
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav>
+        <ul>
+          <li class="logo">Header Logo</li>
+          <li>header link one</li>
+          <li>header link two</li>
+          <li>header link three</li>
+        </ul>
+      </nav>
     </header>
-    <section>
+    <section class="section1">
       <h1>Some Random Information</h1>
-      <article></article>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A, nisi!</p>
-      <article></article>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, a.
-      </p>
-      <article></article>
-      <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi, ut.
-      </p>
-      <article></article>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quam.
-      </p>
-    </section>
-    <section>
+      <div class="sectionflex">
+        <article class="article"></article>
+        <article class="article"></article>
+        <article class="article"></article>
+        <article class="article"></article>
+      </div>
+      <div class="sectionflex">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+    <section class="section2">
       <h3>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta eos
         deleniti possimus delectus quidem vitae labore totam nemo fugit beatae?
       </h3>
       <h4>- Lorem ipsum dolor sit amet.</h4>
     </section>
-    <section></section>
-    <footer></footer>
+    <section class="section1">
+      <div class="last">
+        <article class="lastarticle">
+          <h3>Lorem ipsum dolor sit amet!</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quibusdam!</p>
+          <button>Sing Up</button>
+        </article>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Copyright © The Odin Project 2023</p>
+    </footer>
   </body>
 </html>
