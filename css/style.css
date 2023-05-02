@@ -1,5 +1,63 @@
-.section--1{
+.header{
     background-color: #1f2937;
+    height: 500px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.logo{
+    color: #f9faf8;
+    font-size: 24px;
+}
+.list ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+    }
+.li{
+    color: white;
+    list-style: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 200px;
+}
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-top: 3%;
+}
+.hero1{
+    width: 500px;
+    height: 300px;
+}
+.heroh2{
+    color: #f9faf8;
+    font-size: 48px;
+    font-style: bold;
+}
+.herop{
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.btn-signup{
+    color: #f9faf8;
+    background-color: #3882f6;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.optimg{
+    color: white;
+    background-color: gray;
+    width: 750px;
+    height: 250px;
+    text-align: center;
+}
+.optimg p{
+    padding-top: 12%;
 }
 h1{
     color: #1f2937;
